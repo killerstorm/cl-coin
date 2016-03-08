@@ -4,9 +4,8 @@
   :serial t
   :description "Bitcoin utilities for Common Lisp"
   :author "Alex Mizrahi  <alex.mizrahi@gmail.com>"
-  :license "LLGPL"
+  :license "MIT"
   :depends-on (#:ironclad
                #:com.gigamonkeys.binary-data)
   :components ((:file "package")
                (:file "cl-coin")))
-
